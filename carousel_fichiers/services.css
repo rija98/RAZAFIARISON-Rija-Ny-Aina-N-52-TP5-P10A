@@ -1,0 +1,141 @@
+/*
+ * (C)opyright Solocal Group 2014-2015
+ *
+ * This is Solocal Group proprietary source code.
+ * Any reproduction modification or use without prior written
+ * approval from Solocal Group is strictly forbidden.
+ * 
+ */
+/* ``captcha`` service */
+/***********/
+/* Captcha */
+/***********/
+.captcha.mandatory .captcha-text:after {
+    content: "*";
+    display: inline-block;
+}
+
+.captcha .captcha-label{
+    display: inline-block;
+}
+
+.captcha .captcha-image{
+    display: inline-block;
+    pointer-events: none;
+}
+
+/* ``formatting`` service */
+/* spinner */
+.spinner {
+    position: relative;
+}
+
+.spinner .spinner-input {
+    width: 100%;
+    padding-right: 20px;
+}
+
+.spinner .spinner-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+}
+
+.spinner .spinner-buttons a {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    text-indent: 100%;
+    overflow: hidden;
+    left: 0;
+}
+
+.spinner .spinner-buttons a.incr {
+    top: 0;
+}
+
+.spinner .spinner-buttons a.decr {
+    bottom: 0;
+}
+
+.spinner .spinner-buttons a:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    border: 4px solid transparent;
+    transform: scale(0.999);  /* anti-aliasing */
+    margin-left: -4px;
+}
+
+.spinner .spinner-buttons a.incr:before {
+    top: 50%;
+    border-top: 0;
+    border-bottom-color: #000;
+}
+
+.spinner .spinner-buttons a.decr:before {
+    bottom: 50%;
+    border-bottom: 0;
+    border-top-color: #000;
+}
+
+.spinner .spinner-input:disabled + .spinner-buttons {
+    display: none;
+}
+
+
+.contact_form_error {color:red}
+.contact_form_success {background: #DDEEDD; border: 1px solid #BBCCBB; color: #337733; padding: 15px;}  /* greens */
+.contact_form_success .message,
+.contact_form_error .message {padding: 0; margin: 0; display: inline-block;}
+.contact_form_success .dismiss {display: inline-block; width: auto; background: none; border: 0; color: #337733; text-decoration: underline;} /* Link aspect */
+
+
+/* ``richtext`` service */
+/*********************************/
+/*richtext*/
+/*********************************/
+.richtext img{margin-top: 5px; margin-bottom:5px;}
+.richtext img.left{float: left; margin-left:0; margin-right:12px; padding-right: 0}
+.richtext img.right{float: right; margin-left:12px; margin-right:0;}
+.richtext a{text-decoration:underline}
+.richtext ul,
+.richtext ol{
+    display:table;/* respect indentation when there's an image floating on the left */
+}
+
+/* Applied generic behavior : used to collapse borders on table */
+.richtext table[border="1"], .richtext table[border="2"],
+.richtext table[border="3"], .richtext table[border="4"],
+.richtext table[border="5"], .richtext table[border="6"],
+.richtext table[border="7"], .richtext table[border="8"],
+.richtext table[border="9"], .richtext table[border="10"]{
+    border-collapse: collapse;
+}
+
+.richtext table[border="1"], .richtext table[border="2"],
+.richtext table[border="3"], .richtext table[border="4"],
+.richtext table[border="5"], .richtext table[border="6"] {border-spacing: 0;}
+.richtext table[border="1"], .richtext table[border="1"] th, .richtext table[border="1"] td,
+.richtext table[border="2"], .richtext table[border="2"] th, .richtext table[border="2"] td,
+.richtext table[border="3"], .richtext table[border="3"] th, .richtext table[border="3"] td,
+.richtext table[border="4"], .richtext table[border="4"] th, .richtext table[border="4"] td,
+.richtext table[border="5"], .richtext table[border="5"] th, .richtext table[border="5"] td,
+.richtext table[border="6"], .richtext table[border="6"] th, .richtext table[border="6"] td,
+.richtext table[border="7"], .richtext table[border="7"] th, .richtext table[border="7"] td,
+.richtext table[border="8"], .richtext table[border="8"] th, .richtext table[border="8"] td,
+.richtext table[border="9"], .richtext table[border="9"] th, .richtext table[border="9"] td,
+.richtext table[border="10"], .richtext table[border="10"] th, .richtext table[border="10"] td { border-style: solid; }
+.richtext table[align="left"] { margin: 0 15px 15px 0; }
+.richtext table[align="center"] { margin: 0 auto 15px; }
+.richtext table[align="right"] { margin: 0 0 15px 15px; }
+
+/* Mobile inteface */
+@media screen and (max-width: 480px) {
+    .richtext img {width: auto!important}
+}

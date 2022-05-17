@@ -1,0 +1,46 @@
+body{margin:0;padding:0;background-color:white!important}
+*{-webkit-print-color-adjust: exact;print-color-adjust: exact;}
+
+.print-view{display:block}
+.screen-view{display:none}
+
+#main-content > aside,
+.component.booking,
+.component.cart.basket_button_view,
+.component.languages,
+.main-menu,
+.component.point_of_sale_selector,
+.component.contact.contact_form_view,
+.component.contact.title_view,
+footer .component.links,
+footer .component.brochures,
+footer .social-links,
+footer .social-and-publisher .title{display:none!important}
+
+footer .social-and-publisher{border:0!important}
+
+#main-content{padding:0;margin:0;display:block}
+#main-content > section {display:block;padding:0}
+
+#main-content,
+header > .inner-content,
+footer > .inner-content,
+#mobile-aside{max-width: inherit}
+
+header,
+#main-content > aside + section,
+#uber-content,
+footer{display:block;width:100%;max-width: inherit; height: auto;float:none;box-shadow:none}
+
+#uber-content{padding-top:20px;background:white}
+
+.contact-page .contact_layout > .slots-2 > .item-1,
+.contact-page .contact_layout > .slots-2 > .item-2{width:50%}
+
+/*header{display: table-header-group}
+#uber-content{display: table-row-group}
+footer{display: table-footer-group}*/
+
+.component.map{page-break-after: always;page-break-inside: avoid}
+
+

@@ -1,0 +1,1176 @@
+/*
+ * (C)opyright Solocal Group 2014-2015
+ *
+ * This is Solocal Group proprietary source code.
+ * Any reproduction modification or use without prior written
+ * approval from Solocal Group is strictly forbidden.
+ * 
+ */
+/* ``last_updated`` component */
+/* comp last_updated */
+.component.last_updated.localch_view .last-updated-item{list-style-type: none;}
+
+.component.last_updated.editus-mobile_view .gris{color:#b2b2b2;}
+
+.component.last_updated a.localch-logo:before{content: "";display: inline-block;margin-right: 9px;width: 29px;height: 28px;float: left; background: url(/service/2.21.0/component_statics/fr/restaurant-carte/last_updated//imgs/local_promo_logo.png) no-repeat top left;}
+.component.last_updated a.localch-logo{overflow: hidden;  /* clear the float */}
+.component.last_updated.selfcare_access_via_link_view .last-updated-items,
+.component.last_updated.selfcare_access_via_email_view .last-updated-items { display: table; }
+.component.last_updated.selfcare_access_via_link_view  .last-updated-items > *,
+.component.last_updated.selfcare_access_via_email_view .last-updated-items > * {  display: table-cell; }
+
+/*magic key*/
+.component.last_updated  a.site-creator-logo {text-decoration:none;background: transparent top left url("/service/2.21.0/component_statics/fr/restaurant-carte/last_updated//imgs/soms_logo_black.png") no-repeat;display: block;width: 81px;height: 35px;margin: 0 15px 0 0;}
+.component.last_updated .site_title_view .corporate-name{font-weight: bold;color:#000000}
+.component.last_updated .site-creator-name{color:#000000}
+.component.last_updated .selfcare-link{text-decoration:none;color:#000000;font-weight: bold;}
+.component.last_updated .site_title_view{display:inline}
+.component.last_updated .site_creator_view{display:inline}
+.component.last_updated .site_creator_view{display:inline}
+
+/*magic key popin*/
+.component.last_updated .mandatory-message:before {content: "*";display: inline-block;}
+
+/* contrasted color */
+.component.last_updated.high_contrast_on_primary,
+.component.last_updated.high_contrast_on_primary .selfcare-link,
+.component.last_updated.high_contrast_on_primary .site_title_view .corporate-name{background-color: #D34D49; color: #FFFFFF;}
+.component.last_updated.high_contrast_on_secondary,
+.component.last_updated.high_contrast_on_secondary .selfcare-link,
+.component.last_updated.high_contrast_on_secondary .site_title_view .corporate-name{background-color: #1B6F06; color: #FFFFFF;}
+.component.last_updated.high_contrast_on_additional,
+.component.last_updated.high_contrast_on_additional .selfcare-link,
+.component.last_updated.high_contrast_on_additional .site_title_view .corporate-name{background-color: #6a2725; color: #FFFFFF;}
+
+.component.last_updated.site_creator_logo_view.high_contrast_on_primary a.site-creator-logo {background: transparent top left url("/service/2.21.0/component_statics/fr/restaurant-carte/last_updated//imgs/soms_logo_white.png") no-repeat;}
+.component.last_updated.site_creator_logo_view.high_contrast_on_secondary a.site-creator-logo {background: transparent top left url("/service/2.21.0/component_statics/fr/restaurant-carte/last_updated//imgs/soms_logo_white.png") no-repeat;}
+.component.last_updated.site_creator_logo_view.high_contrast_on_additional a.site-creator-logo {background: transparent top left url("/service/2.21.0/component_statics/fr/restaurant-carte/last_updated//imgs/soms_logo_white.png") no-repeat;}
+
+
+
+/* ``social_sharing`` component */
+.component.social_sharing .gplus,
+.component.social_sharing .tweet,
+.component.social_sharing .fb,
+.component.social_sharing .fb-link,
+.component.social_sharing .share-by-email,
+.component.social_sharing .share-by-sms {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.component.social_sharing.share_by_email_view,
+.component.social_sharing.share_by_sms_view {
+    display: inline-block;
+}
+
+.component.social_sharing .gplus {
+    background-image: url(/service/2.21.0/component_statics/fr/restaurant-carte/social_sharing//imgs/gplus.gif);
+}
+
+.component.social_sharing .tweet {
+    background-image: url(/service/2.21.0/component_statics/fr/restaurant-carte/social_sharing//imgs/tweet.gif);
+}
+
+.component.social_sharing .fb {
+    background-image: url(/service/2.21.0/component_statics/fr/restaurant-carte/social_sharing//imgs/fb.gif);
+}
+
+.component.social_sharing .fb-link {
+    background-image: url(/service/2.21.0/component_statics/fr/restaurant-carte/social_sharing//imgs/fb-link.png);
+}
+
+.component.social_sharing .share-by-email {
+    background-image: url(/service/2.21.0/component_statics/fr/restaurant-carte/social_sharing//imgs/email.png);
+}
+
+.component.social_sharing .share-by-sms {
+    background-image: url(/service/2.21.0/component_statics/fr/restaurant-carte/social_sharing//imgs/sms.png);
+}
+
+.component.social_sharing .fb-like {
+    border: none;
+    overflow: hidden;
+    height: 20px;
+    width: 120px;
+}
+
+.component.social_sharing .captcha .captcha-image {
+    height: 40px;
+    width: 145px;
+}
+
+.component.social_sharing .mandatory.field label:after,
+.component.social_sharing .mandatory-message:before {
+    content: "*";
+    display: inline-block;
+}
+
+.component.social_sharing .mandatory.field label.captcha-label:after {
+    display: none;
+}
+
+.component.social_sharing .share-by-email-form a,
+.component.social_sharing .share-by-email-form input,
+.component.social_sharing .share-by-email-form button,
+.component.social_sharing .share-by-email-form select,
+.component.social_sharing .share-by-email-form textarea,
+.component.social_sharing .share-by-email-form .button,
+.component.social_sharing .share-by-sms-form a,
+.component.social_sharing .share-by-sms-form input,
+.component.social_sharing .share-by-sms-form button,
+.component.social_sharing .share-by-sms-form select,
+.component.social_sharing .share-by-sms-form textarea,
+.component.social_sharing .share-by-sms-form .button {
+    cursor: pointer
+}
+
+.component.social_sharing .share-by-email-form textarea,
+.component.social_sharing .share-by-sms-form textarea {
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/****************
+* Badge plugins *
+*****************/
+.component.social_sharing.facebook_badge_view,
+.component.social_sharing.google_plus_badge_view,
+.component.social_sharing.linkedin_badge_view,
+.component.social_sharing.twitter_badge_view {
+    display: inline-block;
+    position: relative;
+    overflow: visible;
+}
+
+.component.social_sharing .badge-button-label {
+    outline: 0;
+}
+
+@media screen and (min-width: 481px) {
+    .component.social_sharing .badge-button-label {
+        /* In the associated Javascript code, setting the cursor property to
+        "default" disables the link navigation and enables the badge popin
+        instead... */
+        cursor: default;
+    }
+}
+
+.component.social_sharing .badge-popin {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFF;
+}
+
+
+.component.social_sharing .badge-popin.closed {
+    /* Note: we can't use display:none or visibility: hidden to hide the popin
+    because the badge plugins don't cope with that. So we move it off-screen */
+    opacity: 0;
+    left: -9999px;
+}
+
+.component.social_sharing .twitter-badge {
+    padding: 5px;
+}
+
+
+/* ``links`` component */
+.component.links .links-items{padding:0;list-style-type:none}
+
+
+/* ``brochures`` component */
+.brochures .brochures-items{padding:0;list-style-type:none}
+
+
+
+
+
+
+
+
+/* ``menu`` component */
+.menu.editus-mobile-overlay_view .x-overlay-menu{ margin-left: 10px;padding: 5px;}
+
+.component.menu a {word-wrap: break-word; outline: 0 none;}
+
+
+/* ``contact_form``  */
+.contact_form a,
+.contact_form input,
+.contact_form button,
+.contact_form select,
+.contact_form textarea,
+.contact_form .button {cursor: pointer}
+
+.contact_form textarea {-webkit-overflow-scrolling: touch;}
+
+.contact_form.default_view .contact_form_send{clear:both}
+
+.contact_form .nagare-error-input input[type="text"], .contact_form .nagare-error-input textarea{border-color:red}
+.contact_form .nagare-error-message{color:red}
+
+.map_share_form .map_form_error{color:red}
+.map_share_form .map_share_actions {overflow: hidden}
+.map_share_form .map_share_actions .send {float: right}
+.map_share_form .map_share_actions .cancel{float: left}
+
+.map_share_form .button{font-weight:bold;color:white;text-decoration:none;border-radius:8px;padding:15px 8px;display:inline-block;border:0;background: #a6a6a6;}
+.map_share_form .button:hover{background:#737373}
+
+.contact_form .mandatory.field label:after,
+.contact_form .mandatory-message:before {content: "*"; display: inline-block}
+.contact_form .mandatory.field label.captcha-label:after {display:none}
+
+/* Editus */
+.component.contact.editus_contact_form_view .title{width:582px;height:26px;font-size:1.3em;color:#fff;padding:5px 10px;font-weight:normal;margin:0 0 0.4em;}
+.component.contact.editus_contact_form_view .title label{font-size:0.9em;font-weight:bold;}
+
+.component.contact.editus_contact_form_view form{width:587px;}
+
+.component.contact.editus_contact_form_view .sender_name_field,
+.component.contact.editus_contact_form_view .sender_firstname_field,
+.component.contact.editus_contact_form_view .sender_email_field,
+.component.contact.editus_contact_form_view .sender_tel_field {display:block;float:left;width:calc(50% - 2.5px);box-sizing:border-box;}
+.component.contact.editus_contact_form_view .sender_name_field,
+.component.contact.editus_contact_form_view .sender_email_field{margin-right:5px;}
+
+.component.contact.editus_contact_form_view .subject_field,
+.component.contact.editus_contact_form_view .sender_message_field{display:block;clear:both;width:100%;box-sizing:border-box;}
+
+.component.contact.editus_contact_form_view input{margin-bottom:3px;}
+.component.contact.editus_contact_form_view textarea{min-height:240px}
+.component.contact.editus_contact_form_view {float: left;}
+.component.contact.editus_contact_form_view .send_button{clear:both;float:right;margin: 10px 0px;border:0 none;padding-bottom:8px;width:115px;height:34px;text-align:center;color:#fff;font-weight:bold;font-size:1.2em;}
+.component.contact.editus_contact_form_view .captcha {overflow:hidden; margin: 0;}
+.component.contact.editus_contact_form_view .captcha .captcha-text{display: inline-block;}
+.component.contact.editus_contact_form_view .captcha .captcha-label{margin: 3px 5px; float: right; clear:both;}
+.component.contact.editus_contact_form_view .captcha .captcha-input {width: 195px; float: right; clear:both}
+
+.component.contact.editus_contact_form_view .nagare-error-message {display:none}
+
+.component.contact.editus_contact_form_view .contact_form_intro {font-weight: bold;}
+.component.contact.editus_contact_form_view input[type="checkbox"] {margin-top:3px; margin-right:1px;}
+
+.component.contact.editus_contact_form_view .nagare-error-input input,
+.component.contact.editus_contact_form_view .nagare-error-input textarea{border: 1px solid red;padding:2px 1px;outline:none}
+
+
+
+/* ``languages`` component */
+.component.languages .available-languages {
+    list-style: none;
+    padding: 0;
+}
+
+/* flags icons */
+.component.languages.with_icons .flag {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 0;  /* hide the text but not the :before and :after elements */
+}
+
+.component.languages.with_icons .flag:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url(/service/2.21.0/component_statics/fr/restaurant-carte/languages//img/languages-flags.png);
+    width: 19px;
+    height: 13px;
+}
+
+.component.languages.with_icons .flag.fr:before {
+    background-position: 0 0;
+}
+
+.component.languages.with_icons .flag.lb:before {
+    background-position: -27px 0;
+}
+
+.component.languages.with_icons .flag.de:before {
+    background-position: -53px 0;
+}
+
+.component.languages.with_icons .flag.en:before {
+    background-position: -80px 0;
+}
+
+.component.languages.with_icons .flag.it:before {
+    background-position: -109px 0;
+}
+
+.component.languages.with_icons .flag.pt:before {
+    background-position: -136px 0;
+}
+
+
+/* default view */
+.component.languages.default_view .available-languages .item {
+    display: inline-block;
+}
+
+
+/* dropdown view */
+.component.languages.dropdown_view .available-languages{
+    display: none;
+    padding: 5px;
+    background: #FFF;
+}
+
+.component.languages.dropdown_view .available-languages.opened {
+    display: block;
+}
+
+/* dropdown indicator */
+.component.languages.dropdown_view .active .flag:after {
+    content: "▼";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 1;
+}
+
+
+/* ``site_title`` component */
+.site_title.with_link_view .title_link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* ``booking`` component */
+/*********************************/
+/*reservation*/
+/*********************************/
+@font-face {
+    font-family: 'icomoon_point_of_sale';
+    src: url(/service/2.21.0/component_statics/fr/restaurant-carte/booking//fonts/icomoon_point_of_sale.eot);
+    src: url(/service/2.21.0/component_statics/fr/restaurant-carte/booking//fonts/icomoon_point_of_sale.eot?#iefix) format('embedded-opentype'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/booking//fonts/icomoon_point_of_sale.woff) format('woff'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/booking//fonts/icomoon_point_of_sale.ttf) format('truetype'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/booking//fonts/icomoon_point_of_sale.svg#icomoon) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.component.booking .booking-button {
+    font-weight: bold;
+    color: white;
+    background: #a6a6a6;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 0 28px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px
+}
+
+.component.booking .booking-button:hover {
+    background: #737373
+}
+
+.component.booking.default_view {
+    position: relative;
+    padding: 7px 0 0 38px;
+    margin-bottom: 23px
+}
+
+.component.booking.default_view:before {
+    display: inline-block;
+    content: "\e607";
+    font-size: 19px;
+    color: #33332d;
+    font-family: icomoon_point_of_sale;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-weight: normal;
+}
+
+
+.component.booking .booking-iframe.clicrdv-booking-iframe {
+    width: 100%;
+    height: 600px;
+    border: 0px;
+}
+
+/* ``popin`` component */
+/* overlay */
+.component.popin {
+    /* take all the available space on screen */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    cursor: pointer;
+
+    /* semi-transparent black background */
+    background: none;  /* IE */
+    background-color: rgba(0, 0, 0);  /* fallback for older browsers */
+    background-color: rgba(0, 0, 0, 0.9);  /* modern browsers */
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5000000,endColorstr=#E5000000);  /* IE 8 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5000000,endColorstr=#E5000000);  /* IE < 8 */
+    zoom: 1;  /* IE */
+
+    /* opacity animation */
+    opacity: 1;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.component.popin.closed {
+    visibility: hidden;  /* don't use display none here because it prevents the inner components from performing size calculations */
+    opacity: 0;  /* for opacity animation */
+    z-index: -1; /* Fixes the popin overlay when she is closed */
+    left: -9999px; /* Fixes the popin overlay when she is closed */
+}
+
+/* inner content */
+.component.popin > .popin-content {
+    background: #FFF;
+    width: 480px;
+    margin: 50px auto 0;
+    padding: 10px 30px 30px;
+    cursor: default;
+    list-style: none;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+/* ``spoken_languages`` component */
+.spoken_languages.editus-mobile_view .flags{clear:both;}
+
+.spoken_languages .spoken-languages-items {padding: 0; list-style: none; }
+.spoken_languages .spoken-languages-item:before {content: ''; margin-right: 10px;display:inline-block;width:20px;height:20px;vertical-align:text-top;line-height:32px;background:url(/service/2.21.0/component_statics/fr/restaurant-carte/spoken_languages//imgs/flags.png) no-repeat;}
+.spoken_languages .spoken-languages-item._African_Union:before {background-position:0 -20px;}
+.spoken_languages .spoken-languages-item._Arab_League:before {background-position:0 -40px;}
+.spoken_languages .spoken-languages-item._ASEAN:before {background-position:0 -60px;}
+.spoken_languages .spoken-languages-item._CARICOM:before {background-position:0 -80px;}
+.spoken_languages .spoken-languages-item._CIS:before {background-position:0 -100px;}
+.spoken_languages .spoken-languages-item._Commonwealth:before {background-position:0 -120px;}
+.spoken_languages .spoken-languages-item._England:before {background-position:0 -140px;}
+.spoken_languages .spoken-languages-item._European_Union,
+.spoken_languages .spoken-languages-item.eu:before {background-position:0 -160px;}
+.spoken_languages .spoken-languages-item._Islamic_Conference:before {background-position:0 -180px;}
+.spoken_languages .spoken-languages-item._Kosovo:before {background-position:0 -200px;}
+.spoken_languages .spoken-languages-item._NATO:before {background-position:0 -220px;}
+.spoken_languages .spoken-languages-item._Northern_Cyprus:before {background-position:0 -240px;}
+.spoken_languages .spoken-languages-item._Northern_Ireland:before {background-position:0 -260px;}
+.spoken_languages .spoken-languages-item._Olimpic_Movement:before {background-position:0 -280px;}
+.spoken_languages .spoken-languages-item._OPEC:before {background-position:0 -300px;}
+.spoken_languages .spoken-languages-item._Red_Cross:before {background-position:0 -320px;}
+.spoken_languages .spoken-languages-item._Scotland:before {background-position:0 -340px;}
+.spoken_languages .spoken-languages-item._Somaliland:before {background-position:0 -360px;}
+.spoken_languages .spoken-languages-item._Tibet:before {background-position:0 -380px;}
+.spoken_languages .spoken-languages-item._United_Nations:before {background-position:0 -400px;}
+.spoken_languages .spoken-languages-item._Wales:before {background-position:0 -420px;}
+.spoken_languages .spoken-languages-item.ad:before {background-position:0 -440px;}
+.spoken_languages .spoken-languages-item.ae:before {background-position:0 -460px;}
+.spoken_languages .spoken-languages-item.af:before {background-position:0 -480px;}
+.spoken_languages .spoken-languages-item.ag:before {background-position:0 -500px;}
+.spoken_languages .spoken-languages-item.ai:before {background-position:0 -520px;}
+.spoken_languages .spoken-languages-item.al:before {background-position:0 -540px;}
+.spoken_languages .spoken-languages-item.am:before {background-position:0 -560px;}
+.spoken_languages .spoken-languages-item.ao:before {background-position:0 -580px;}
+.spoken_languages .spoken-languages-item.aq:before {background-position:0 -600px;}
+.spoken_languages .spoken-languages-item.ar:before {background-position:0 -620px;}
+.spoken_languages .spoken-languages-item.as:before {background-position:0 -640px;}
+.spoken_languages .spoken-languages-item.at:before {background-position:0 -660px;}
+.spoken_languages .spoken-languages-item.au:before {background-position:0 -680px;}
+.spoken_languages .spoken-languages-item.aw:before {background-position:0 -700px;}
+.spoken_languages .spoken-languages-item.ax:before {background-position:0 -720px;}
+.spoken_languages .spoken-languages-item.az:before {background-position:0 -740px;}
+.spoken_languages .spoken-languages-item.ba:before {background-position:0 -760px;}
+.spoken_languages .spoken-languages-item.bb:before {background-position:0 -780px;}
+.spoken_languages .spoken-languages-item.bd:before {background-position:0 -800px;}
+.spoken_languages .spoken-languages-item.be:before {background-position:0 -820px;}
+.spoken_languages .spoken-languages-item.bf:before {background-position:0 -840px;}
+.spoken_languages .spoken-languages-item.bg:before {background-position:0 -860px;}
+.spoken_languages .spoken-languages-item.bh:before {background-position:0 -880px;}
+.spoken_languages .spoken-languages-item.bi:before {background-position:0 -900px;}
+.spoken_languages .spoken-languages-item.bj:before {background-position:0 -920px;}
+.spoken_languages .spoken-languages-item.bm:before {background-position:0 -940px;}
+.spoken_languages .spoken-languages-item.bn:before {background-position:0 -960px;}
+.spoken_languages .spoken-languages-item.bo:before {background-position:0 -980px;}
+.spoken_languages .spoken-languages-item.br:before {background-position:0 -1000px;}
+.spoken_languages .spoken-languages-item.bs:before {background-position:0 -1020px;}
+.spoken_languages .spoken-languages-item.bt:before {background-position:0 -1040px;}
+.spoken_languages .spoken-languages-item.bw:before {background-position:0 -1060px;}
+.spoken_languages .spoken-languages-item.by:before {background-position:0 -1080px;}
+.spoken_languages .spoken-languages-item.bz:before {background-position:0 -1100px;}
+.spoken_languages .spoken-languages-item.ca:before {background-position:0 -1120px;}
+.spoken_languages .spoken-languages-item.cg:before {background-position:0 -1140px;}
+.spoken_languages .spoken-languages-item.cf:before {background-position:0 -1160px;}
+.spoken_languages .spoken-languages-item.cd:before {background-position:0 -1180px;}
+.spoken_languages .spoken-languages-item.ch:before {background-position:0 -1200px;}
+.spoken_languages .spoken-languages-item.ci:before {background-position:0 -1220px;}
+.spoken_languages .spoken-languages-item.ck:before {background-position:0 -1240px;}
+.spoken_languages .spoken-languages-item.cl:before {background-position:0 -1260px;}
+.spoken_languages .spoken-languages-item.cm:before {background-position:0 -1280px;}
+.spoken_languages .spoken-languages-item.cn:before {background-position:0 -1300px;}
+.spoken_languages .spoken-languages-item.co:before {background-position:0 -1320px;}
+.spoken_languages .spoken-languages-item.cr:before {background-position:0 -1340px;}
+.spoken_languages .spoken-languages-item.cu:before {background-position:0 -1360px;}
+.spoken_languages .spoken-languages-item.cv:before {background-position:0 -1380px;}
+.spoken_languages .spoken-languages-item.cy:before {background-position:0 -1400px;}
+.spoken_languages .spoken-languages-item.cz:before {background-position:0 -1420px;}
+.spoken_languages .spoken-languages-item.de:before {background-position:0 -1440px;}
+.spoken_languages .spoken-languages-item.dj:before {background-position:0 -1460px;}
+.spoken_languages .spoken-languages-item.dk:before {background-position:0 -1480px;}
+.spoken_languages .spoken-languages-item.dm:before {background-position:0 -1500px;}
+.spoken_languages .spoken-languages-item.do:before {background-position:0 -1520px;}
+.spoken_languages .spoken-languages-item.dz:before {background-position:0 -1540px;}
+.spoken_languages .spoken-languages-item.ec:before {background-position:0 -1560px;}
+.spoken_languages .spoken-languages-item.ee:before {background-position:0 -1580px;}
+.spoken_languages .spoken-languages-item.eg:before {background-position:0 -1600px;}
+.spoken_languages .spoken-languages-item.eh:before {background-position:0 -1620px;}
+.spoken_languages .spoken-languages-item.er:before {background-position:0 -1640px;}
+.spoken_languages .spoken-languages-item.es:before {background-position:0 -1660px;}
+.spoken_languages .spoken-languages-item.et:before {background-position:0 -1680px;}
+.spoken_languages .spoken-languages-item.fi:before {background-position:0 -1700px;}
+.spoken_languages .spoken-languages-item.fj:before {background-position:0 -1720px;}
+.spoken_languages .spoken-languages-item.fm:before {background-position:0 -1740px;}
+.spoken_languages .spoken-languages-item.fo:before {background-position:0 -1760px;}
+.spoken_languages .spoken-languages-item.fr:before {background-position:0 -1780px;}
+.spoken_languages .spoken-languages-item.bl:before,
+.spoken_languages .spoken-languages-item.cp:before,
+.spoken_languages .spoken-languages-item.mf:before,
+.spoken_languages .spoken-languages-item.yt:before {background-position:0 -1780px;}
+.spoken_languages .spoken-languages-item.ga:before {background-position:0 -1800px;}
+.spoken_languages .spoken-languages-item.gb:before {background-position:0 -1820px;}
+.spoken_languages .spoken-languages-item.sh:before {background-position:0 -1820px;}
+.spoken_languages .spoken-languages-item.en:before {background-position:0 -1820px;}
+.spoken_languages .spoken-languages-item.gd:before {background-position:0 -1840px;}
+.spoken_languages .spoken-languages-item.ge:before {background-position:0 -1860px;}
+.spoken_languages .spoken-languages-item.gg:before {background-position:0 -1880px;}
+.spoken_languages .spoken-languages-item.gh:before {background-position:0 -1900px;}
+.spoken_languages .spoken-languages-item.gi:before {background-position:0 -1920px;}
+.spoken_languages .spoken-languages-item.gl:before {background-position:0 -1940px;}
+.spoken_languages .spoken-languages-item.gm:before {background-position:0 -1960px;}
+.spoken_languages .spoken-languages-item.gn:before {background-position:0 -1980px;}
+.spoken_languages .spoken-languages-item.gp:before {background-position:0 -2000px;}
+.spoken_languages .spoken-languages-item.gq:before {background-position:0 -2020px;}
+.spoken_languages .spoken-languages-item.gr:before {background-position:0 -2040px;}
+.spoken_languages .spoken-languages-item.gt:before {background-position:0 -2060px;}
+.spoken_languages .spoken-languages-item.gu:before {background-position:0 -2080px;}
+.spoken_languages .spoken-languages-item.gw:before {background-position:0 -2100px;}
+.spoken_languages .spoken-languages-item.gy:before {background-position:0 -2120px;}
+.spoken_languages .spoken-languages-item.hk:before {background-position:0 -2140px;}
+.spoken_languages .spoken-languages-item.hn:before {background-position:0 -2160px;}
+.spoken_languages .spoken-languages-item.hr:before {background-position:0 -2180px;}
+.spoken_languages .spoken-languages-item.ht:before {background-position:0 -2200px;}
+.spoken_languages .spoken-languages-item.hu:before {background-position:0 -2220px;}
+.spoken_languages .spoken-languages-item.id:before {background-position:0 -2240px;}
+.spoken_languages .spoken-languages-item.mc:before {background-position:0 -2240px;}
+.spoken_languages .spoken-languages-item.ie:before {background-position:0 -2260px;}
+.spoken_languages .spoken-languages-item.il:before {background-position:0 -2280px;}
+.spoken_languages .spoken-languages-item.im:before {background-position:0 -2300px;}
+.spoken_languages .spoken-languages-item.in:before {background-position:0 -2320px;}
+.spoken_languages .spoken-languages-item.iq:before {background-position:0 -2340px;}
+.spoken_languages .spoken-languages-item.ir:before {background-position:0 -2360px;}
+.spoken_languages .spoken-languages-item.is:before {background-position:0 -2380px;}
+.spoken_languages .spoken-languages-item.it:before {background-position:0 -2400px;}
+.spoken_languages .spoken-languages-item.je:before {background-position:0 -2420px;}
+.spoken_languages .spoken-languages-item.jm:before {background-position:0 -2440px;}
+.spoken_languages .spoken-languages-item.jo:before {background-position:0 -2460px;}
+.spoken_languages .spoken-languages-item.jp:before {background-position:0 -2480px;}
+.spoken_languages .spoken-languages-item.ke:before {background-position:0 -2500px;}
+.spoken_languages .spoken-languages-item.kg:before {background-position:0 -2520px;}
+.spoken_languages .spoken-languages-item.kh:before {background-position:0 -2540px;}
+.spoken_languages .spoken-languages-item.ki:before {background-position:0 -2560px;}
+.spoken_languages .spoken-languages-item.km:before {background-position:0 -2580px;}
+.spoken_languages .spoken-languages-item.kn:before {background-position:0 -2600px;}
+.spoken_languages .spoken-languages-item.kp:before {background-position:0 -2620px;}
+.spoken_languages .spoken-languages-item.kr:before {background-position:0 -2640px;}
+.spoken_languages .spoken-languages-item.kw:before {background-position:0 -2660px;}
+.spoken_languages .spoken-languages-item.ky:before {background-position:0 -2680px;}
+.spoken_languages .spoken-languages-item.kz:before {background-position:0 -2700px;}
+.spoken_languages .spoken-languages-item.la:before {background-position:0 -2720px;}
+.spoken_languages .spoken-languages-item.lb:before {background-position:0 -2740px;}
+.spoken_languages .spoken-languages-item.lc:before {background-position:0 -2760px;}
+.spoken_languages .spoken-languages-item.li:before {background-position:0 -2780px;}
+.spoken_languages .spoken-languages-item.lk:before {background-position:0 -2800px;}
+.spoken_languages .spoken-languages-item.lr:before {background-position:0 -2820px;}
+.spoken_languages .spoken-languages-item.ls:before {background-position:0 -2840px;}
+.spoken_languages .spoken-languages-item.lt:before {background-position:0 -2860px;}
+.spoken_languages .spoken-languages-item.lu:before {background-position:0 -2880px;}
+.spoken_languages .spoken-languages-item.lv:before {background-position:0 -2900px;}
+.spoken_languages .spoken-languages-item.ly:before {background-position:0 -2920px;}
+.spoken_languages .spoken-languages-item.ma:before {background-position:0 -2940px;}
+.spoken_languages .spoken-languages-item.md:before {background-position:0 -2960px;}
+.spoken_languages .spoken-languages-item.me:before {background-position:0 -2980px;}
+.spoken_languages .spoken-languages-item.mg:before {background-position:0 -3000px;}
+.spoken_languages .spoken-languages-item.mh:before {background-position:0 -3020px;}
+.spoken_languages .spoken-languages-item.mk:before {background-position:0 -3040px;}
+.spoken_languages .spoken-languages-item.ml:before {background-position:0 -3060px;}
+.spoken_languages .spoken-languages-item.mm:before {background-position:0 -3080px;}
+.spoken_languages .spoken-languages-item.mn:before {background-position:0 -3100px;}
+.spoken_languages .spoken-languages-item.mo:before {background-position:0 -3120px;}
+.spoken_languages .spoken-languages-item.mq:before {background-position:0 -3140px;}
+.spoken_languages .spoken-languages-item.mr:before {background-position:0 -3160px;}
+.spoken_languages .spoken-languages-item.ms:before {background-position:0 -3180px;}
+.spoken_languages .spoken-languages-item.mt:before {background-position:0 -3200px;}
+.spoken_languages .spoken-languages-item.mu:before {background-position:0 -3220px;}
+.spoken_languages .spoken-languages-item.mv:before {background-position:0 -3240px;}
+.spoken_languages .spoken-languages-item.mw:before {background-position:0 -3260px;}
+.spoken_languages .spoken-languages-item.mx:before {background-position:0 -3280px;}
+.spoken_languages .spoken-languages-item.my:before {background-position:0 -3300px;}
+.spoken_languages .spoken-languages-item.mz:before {background-position:0 -3320px;}
+.spoken_languages .spoken-languages-item.na:before {background-position:0 -3340px;}
+.spoken_languages .spoken-languages-item.nc:before {background-position:0 -3360px;}
+.spoken_languages .spoken-languages-item.ne:before {background-position:0 -3380px;}
+.spoken_languages .spoken-languages-item.ng:before {background-position:0 -3400px;}
+.spoken_languages .spoken-languages-item.ni:before {background-position:0 -3420px;}
+.spoken_languages .spoken-languages-item.nl:before {background-position:0 -3440px;}
+.spoken_languages .spoken-languages-item.bq:before {background-position:0 -3440px;}
+.spoken_languages .spoken-languages-item.no:before {background-position:0 -3460px;}
+.spoken_languages .spoken-languages-item.bv:before,
+.spoken_languages .spoken-languages-item.nq:before,
+.spoken_languages .spoken-languages-item.sj:before {background-position:0 -3460px;}
+.spoken_languages .spoken-languages-item.np:before {background-position:0 -3480px;}
+.spoken_languages .spoken-languages-item.nr:before {background-position:0 -3500px;}
+.spoken_languages .spoken-languages-item.nz:before {background-position:0 -3520px;}
+.spoken_languages .spoken-languages-item.om:before {background-position:0 -3540px;}
+.spoken_languages .spoken-languages-item.pa:before {background-position:0 -3560px;}
+.spoken_languages .spoken-languages-item.pe:before {background-position:0 -3580px;}
+.spoken_languages .spoken-languages-item.pf:before {background-position:0 -3600px;}
+.spoken_languages .spoken-languages-item.pg:before {background-position:0 -3620px;}
+.spoken_languages .spoken-languages-item.ph:before {background-position:0 -3640px;}
+.spoken_languages .spoken-languages-item.pk:before {background-position:0 -3660px;}
+.spoken_languages .spoken-languages-item.pl:before {background-position:0 -3680px;}
+.spoken_languages .spoken-languages-item.pr:before {background-position:0 -3700px;}
+.spoken_languages .spoken-languages-item.ps:before {background-position:0 -3720px;}
+.spoken_languages .spoken-languages-item.pt:before {background-position:0 -3740px;}
+.spoken_languages .spoken-languages-item.pw:before {background-position:0 -3760px;}
+.spoken_languages .spoken-languages-item.py:before {background-position:0 -3780px;}
+.spoken_languages .spoken-languages-item.qa:before {background-position:0 -3800px;}
+.spoken_languages .spoken-languages-item.re:before {background-position:0 -3820px;}
+.spoken_languages .spoken-languages-item.ro:before {background-position:0 -3840px;}
+.spoken_languages .spoken-languages-item.rs:before {background-position:0 -3860px;}
+.spoken_languages .spoken-languages-item.ru:before {background-position:0 -3880px;}
+.spoken_languages .spoken-languages-item.rw:before {background-position:0 -3900px;}
+.spoken_languages .spoken-languages-item.sa:before {background-position:0 -3920px;}
+.spoken_languages .spoken-languages-item.sb:before {background-position:0 -3940px;}
+.spoken_languages .spoken-languages-item.sc:before {background-position:0 -3960px;}
+.spoken_languages .spoken-languages-item.sd:before {background-position:0 -3980px;}
+.spoken_languages .spoken-languages-item.se:before {background-position:0 -4000px;}
+.spoken_languages .spoken-languages-item.sg:before {background-position:0 -4020px;}
+.spoken_languages .spoken-languages-item.si:before {background-position:0 -4040px;}
+.spoken_languages .spoken-languages-item.sk:before {background-position:0 -4060px;}
+.spoken_languages .spoken-languages-item.sl:before {background-position:0 -4080px;}
+.spoken_languages .spoken-languages-item.sm:before {background-position:0 -4100px;}
+.spoken_languages .spoken-languages-item.sn:before {background-position:0 -4120px;}
+.spoken_languages .spoken-languages-item.so:before {background-position:0 -4140px;}
+.spoken_languages .spoken-languages-item.sr:before {background-position:0 -4160px;}
+.spoken_languages .spoken-languages-item.st:before {background-position:0 -4180px;}
+.spoken_languages .spoken-languages-item.sv:before {background-position:0 -4200px;}
+.spoken_languages .spoken-languages-item.sy:before {background-position:0 -4220px;}
+.spoken_languages .spoken-languages-item.sz:before {background-position:0 -4240px;}
+.spoken_languages .spoken-languages-item.tc:before {background-position:0 -4260px;}
+.spoken_languages .spoken-languages-item.td:before {background-position:0 -4280px;}
+.spoken_languages .spoken-languages-item.tg:before {background-position:0 -4300px;}
+.spoken_languages .spoken-languages-item.th:before {background-position:0 -4320px;}
+.spoken_languages .spoken-languages-item.tj:before {background-position:0 -4340px;}
+.spoken_languages .spoken-languages-item.tl:before {background-position:0 -4360px;}
+.spoken_languages .spoken-languages-item.tm:before {background-position:0 -4380px;}
+.spoken_languages .spoken-languages-item.tn:before {background-position:0 -4400px;}
+.spoken_languages .spoken-languages-item.to:before {background-position:0 -4420px;}
+.spoken_languages .spoken-languages-item.tr:before {background-position:0 -4440px;}
+.spoken_languages .spoken-languages-item.tt:before {background-position:0 -4460px;}
+.spoken_languages .spoken-languages-item.tv:before {background-position:0 -4480px;}
+.spoken_languages .spoken-languages-item.tw:before {background-position:0 -4500px;}
+.spoken_languages .spoken-languages-item.tz:before {background-position:0 -4520px;}
+.spoken_languages .spoken-languages-item.ua:before {background-position:0 -4540px;}
+.spoken_languages .spoken-languages-item.ug:before {background-position:0 -4560px;}
+.spoken_languages .spoken-languages-item.us:before {background-position:0 -4580px;}
+.spoken_languages .spoken-languages-item.uy:before {background-position:0 -4600px;}
+.spoken_languages .spoken-languages-item.uz:before {background-position:0 -4620px;}
+.spoken_languages .spoken-languages-item.va:before {background-position:0 -4640px;}
+.spoken_languages .spoken-languages-item.vc:before {background-position:0 -4660px;}
+.spoken_languages .spoken-languages-item.ve:before {background-position:0 -4680px;}
+.spoken_languages .spoken-languages-item.vg:before {background-position:0 -4700px;}
+.spoken_languages .spoken-languages-item.vi:before {background-position:0 -4720px;}
+.spoken_languages .spoken-languages-item.vn:before {background-position:0 -4740px;}
+.spoken_languages .spoken-languages-item.vu:before {background-position:0 -4760px;}
+.spoken_languages .spoken-languages-item.ws:before {background-position:0 -4780px;}
+.spoken_languages .spoken-languages-item.ye:before {background-position:0 -4800px;}
+.spoken_languages .spoken-languages-item.za:before {background-position:0 -4820px;}
+.spoken_languages .spoken-languages-item.zm:before {background-position:0 -4840px;}
+.spoken_languages .spoken-languages-item.zw:before {background-position:0 -4860px;}
+.spoken_languages .spoken-languages-item.sx:before {background-position:0 -4880px;}
+.spoken_languages .spoken-languages-item.cw:before {background-position:0 -4900px;}
+.spoken_languages .spoken-languages-item.ss:before {background-position:0 -4920px;}
+.spoken_languages .spoken-languages-item.ar_lang:before {background-position:0 -4940px;}
+.spoken_languages .spoken-languages-item.br_lang:before {background-position:0 -4960px;}
+.spoken_languages .spoken-languages-item.bs_lang:before {background-position:0 -4980px;}
+.spoken_languages .spoken-languages-item.ca_lang:before {background-position:0 -5000px;}
+.spoken_languages .spoken-languages-item.co_lang:before {background-position:0 -5020px;}
+.spoken_languages .spoken-languages-item.cs_lang:before {background-position:0 -5040px;}
+.spoken_languages .spoken-languages-item.da_lang:before {background-position:0 -5060px;}
+.spoken_languages .spoken-languages-item.de_lang:before {background-position:0 -5080px;}
+.spoken_languages .spoken-languages-item.el_lang:before {background-position:0 -5100px;}
+.spoken_languages .spoken-languages-item.en_lang:before {background-position:0 -5120px;}
+.spoken_languages .spoken-languages-item.eo_lang:before {background-position:0 -5140px;}
+.spoken_languages .spoken-languages-item.es_lang:before {background-position:0 -5160px;}
+.spoken_languages .spoken-languages-item.eu_lang:before {background-position:0 -5180px;}
+.spoken_languages .spoken-languages-item.fi_lang:before {background-position:0 -5200px;}
+.spoken_languages .spoken-languages-item.fr_lang:before {background-position:0 -5220px;}
+.spoken_languages .spoken-languages-item.ht_lang:before {background-position:0 -5240px;}
+.spoken_languages .spoken-languages-item.it_lang:before {background-position:0 -5260px;}
+.spoken_languages .spoken-languages-item.ja_lang:before {background-position:0 -5280px;}
+.spoken_languages .spoken-languages-item.ko_lang:before {background-position:0 -5300px;}
+.spoken_languages .spoken-languages-item.lb_lang:before {background-position:0 -5320px;}
+.spoken_languages .spoken-languages-item.nl_lang:before {background-position:0 -5340px;}
+.spoken_languages .spoken-languages-item.oc_lang:before {background-position:0 -5360px;}
+.spoken_languages .spoken-languages-item.pt_lang:before {background-position:0 -5380px;}
+.spoken_languages .spoken-languages-item.ru_lang:before {background-position:0 -5400px;}
+.spoken_languages .spoken-languages-item.sv_lang:before {background-position:0 -5420px;}
+.spoken_languages .spoken-languages-item.tr_lang:before {background-position:0 -5440px;}
+.spoken_languages .spoken-languages-item.zh_lang:before {background-position:0 -5460px;}
+
+
+
+/* ``schedule`` component */
+/*********************************/
+/* Schedule */
+/*********************************/
+@font-face {
+    font-family: 'icomoon_point_of_sale';
+    src: url(/service/2.21.0/component_statics/fr/restaurant-carte/schedule//fonts/icomoon_point_of_sale.eot);
+    src: url(/service/2.21.0/component_statics/fr/restaurant-carte/schedule//fonts/icomoon_point_of_sale.eot?#iefix) format('embedded-opentype'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/schedule//fonts/icomoon_point_of_sale.woff) format('woff'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/schedule//fonts/icomoon_point_of_sale.ttf) format('truetype'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/schedule//fonts/icomoon_point_of_sale.svg#icomoon) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.component.schedule .opening_hours{position:relative;list-style-type:none;padding:0 0 0 38px;}
+.component.schedule .opening_hours:before{display:inline-block;content:"\e606";font-size:18px;color:#33332d;font-family:icomoon_point_of_sale;position:absolute;top:-3px;left:0}
+.component.schedule .closing_periods{list-style-type:none}
+.component.schedule .richtext{padding:0 0 0 38px;}
+
+/* Editus view */
+.component.schedule.editus_view .schedules {float: left; width: 281px;margin-bottom: 10px;text-align:left}
+.component.schedule.editus_view .schedules tr {line-height:14px;}
+.component.schedule.editus_view .schedules th{width: 100px;padding:5px;text-transform:capitalize;width: 30%;}
+.component.schedule.editus_view .schedules td{text-align: center;padding:5px;width: 30%;}
+
+
+.component.schedule.editus_view .schedules .pair,
+.component.schedule.editus-mobile_view .schedules .pair{background-color:#FFFFFF;}
+.component.schedule.editus_view .schedules .impair,
+.component.schedule.editus-mobile_view .schedules .impair{background-color:#F1F1F1;}
+
+.component.schedule.editus-mobile_view .schedules .hidden_part{visibility:hidden;   /* Only on mobile !*/}
+
+.component.schedule.editus_view .richtext.free_text{font-weight: bold;font-size: 0.95em;padding-left: 10px;line-height: 18px;}
+
+
+/* ``cart`` component */
+.component.cart .visually-hidden {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+.component.cart .steps li.active {
+    font-weight: bold;
+}
+
+.component.cart .redirecting_to_paypal{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ``legal_notice`` component */
+.component.legal_notice.editus_view .label{font-weight:bold;}
+.component.legal_notice.editus_view.mobile .title{display:none;}
+
+.component.legal_notice.advertiser_view .provider-info .host-name {display: none;}
+
+
+/* ``background`` component */
+/**************************/
+/* Predefined backgrounds */
+/**************************/
+
+/*SCALE*/
+.BG1001{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG1001.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1002{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG1002.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1003{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG1003.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1004{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG1004.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1005{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG1005.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1006{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG1006.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1007{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG1007.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1008{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG1008.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1009{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG1009.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1010{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG1010.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+
+.BG1011{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-01.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1012{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-02.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1013{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-03.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1014{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-04.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1015{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-05.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1016{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-06.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1017{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-07.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1018{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-08.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1019{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-09.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1020{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-10.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1021{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-11.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1022{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-12.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1023{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-13.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1024{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-14.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1025{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-15.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1026{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-16.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1027{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-17.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1028{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-18.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1029{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-19.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1030{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-20.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1031{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-21.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1032{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-22.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1033{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-23.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1034{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-24.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1035{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-25.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1036{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-26.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1037{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-27.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1038{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-28.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1039{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-29.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1040{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-30.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1041{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-31.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1042{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-32.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1043{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-33.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1044{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-34.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1045{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-35.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1046{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-36.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1047{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-37.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1048{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-38.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1049{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-39.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1050{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-40.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1051{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-41.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1052{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-42.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1053{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-43.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1054{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-44.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1055{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-45.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1056{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-46.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1057{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-47.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1058{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-48.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1059{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-49.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1060{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-50.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1061{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-51.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1062{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-52.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1063{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-53.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1064{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-54.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG1065{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BACKGROUND_-55.png); background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BG7000{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7000.jpg);         background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+
+.BGB100{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/black-100.png); background-position:center top; background-repeat:repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BGB80{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/black-80.png); background-position:center top; background-repeat:repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BGB40{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/black-40.png); background-position:center top; background-repeat:repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BGT{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/transp.png); background-position:center top; background-repeat:repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BGW100{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/white-100.png); background-position:center top; background-repeat:repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BGW80{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/white-80.png); background-position:center top; background-repeat:repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+.BGW40{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/white-40.png); background-position:center top; background-repeat:repeat; -webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%; }
+
+/*NO-REPEAT*/
+.BG3001{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3001.jpg); background-position:center top; background-repeat:no-repeat; background-color:#FFFFFF; }
+.BG3002{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3002.jpg); background-position:center top; background-repeat:no-repeat; background-color:#FFFFFF; }
+.BG3003{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3003.png); background-position:center top; background-repeat:no-repeat; }
+.BG3004{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3004.jpg); background-position:center top; background-repeat:no-repeat; background-color:#000000; }
+.BG3005{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3005.jpg); background-position:center top; background-repeat:no-repeat; background-color:#FFFFFF; }
+.BG3006{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3006.jpg); background-position:center top; background-repeat:no-repeat; background-color:#FFFFFF; }
+.BG3007{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3007.jpg); background-position:center top; background-repeat:no-repeat; background-color:#73C3FE; }
+.BG3008{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3008.jpg); background-position:center top; background-repeat:no-repeat; background-color:#FFFFFF; }
+.BG3009{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3009.jpg); background-position:center top; background-repeat:no-repeat; background-color:#FFFFFF; }
+.BG3010{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3010.jpg); background-position:center top; background-repeat:no-repeat; background-color:#FFFFFF; }
+.BG3011{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3011.jpg); background-position:center top; background-repeat:no-repeat; background-color:#FFFFFF; }
+.BG3012{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3012.jpg); background-position:center top; background-repeat:no-repeat; background-color:#043641; }
+.BG3013{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3013.jpg); background-position:center top; background-repeat:no-repeat; background-color:#FD628A; }
+.BG3014{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3014.png); background-position:center top; background-repeat:no-repeat; }
+.BG3015{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3015.png); background-position:center top; background-repeat:no-repeat; }
+.BG3016{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG3016.png); background-position:center top; background-repeat:no-repeat; }
+
+.BG7009{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7009.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; }
+.BG7010{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7010.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; }
+.BG7011{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7011.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; }
+.BG7002{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7002.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; -webkit-background-size: cover; -moz- background-size: cover; -o-background-size: cover; background- size: cover; }
+.BG7003{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7003.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; -webkit-background-size: cover; -moz- background-size: cover; -o-background-size: cover; background- size: cover; }
+.BG7004{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7004.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; -webkit-background-size: cover; -moz- background-size: cover; -o-background-size: cover; background- size: cover; }
+.BG7005{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7005.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; -webkit-background-size: cover; -moz- background-size: cover; -o-background-size: cover; background- size: cover; }
+.BG7006{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7006.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; -webkit-background-size: cover; -moz- background-size: cover; -o-background-size: cover; background- size: cover; }
+.BG7007{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7007.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; -webkit-background-size: cover; -moz- background-size: cover; -o-background-size: cover; background- size: cover; }
+.BG7008{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7008.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; -webkit-background-size: cover; -moz- background-size: cover; -o-background-size: cover; background- size: cover; }
+.BG7012{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG7012.jpg) !important; background-position: center top !important; background-repeat: no-repeat !important; -webkit-background-size: cover; -moz- background-size: cover; -o-background-size: cover; background- size: cover; }
+
+/*REPEAT*/
+.BG6001{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6001.png); background-position:left top; background-repeat:repeat; }
+.BG6002{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6002.png); background-position:left top; background-repeat:repeat; }
+.BG6003{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6003.png); background-position:left top; background-repeat:repeat; }
+.BG6004{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6004.png); background-position:left top; background-repeat:repeat; }
+.BG6005{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6005.png); background-position:left top; background-repeat:repeat; }
+.BG6006{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6006.png); background-position:left top; background-repeat:repeat; }
+.BG6007{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6007.png); background-position:left top; background-repeat:repeat; }
+.BG6008{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6008.png); background-position:left top; background-repeat:repeat; }
+.BG6009{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6009.png); background-position:left top; background-repeat:repeat; }
+.BG6010{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6010.png); background-position:left top; background-repeat:repeat; }
+.BG6011{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6011.png); background-position:left top; background-repeat:repeat; }
+.BG6012{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6012.png); background-position:left top; background-repeat:repeat; }
+.BG6013{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6013.png); background-position:left top; background-repeat:repeat; }
+.BG6014{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6014.png); background-position:left top; background-repeat:repeat; }
+.BG6015{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6015.png); background-position:left top; background-repeat:repeat; }
+.BG6016{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6016.png); background-position:left top; background-repeat:repeat; }
+.BG6017{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG6017.png); background-position:left top; background-repeat:repeat; }
+
+.BTL01{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_01.png); background-position:left top; background-repeat:repeat; }
+.BTL02{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_02.png); background-position:left top; background-repeat:repeat; }
+.BTL03{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_03.png); background-position:left top; background-repeat:repeat; }
+.BTL04{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_04.png); background-position:left top; background-repeat:repeat; }
+.BTL05{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_05.png); background-position:left top; background-repeat:repeat; }
+.BTL06{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_06.png); background-position:left top; background-repeat:repeat; }
+.BTL07{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_07.png); background-position:left top; background-repeat:repeat; }
+.BTL08{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_08.png); background-position:left top; background-repeat:repeat; }
+.BTL09{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_09.png); background-position:left top; background-repeat:repeat; }
+.BTL10{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_10.png); background-position:left top; background-repeat:repeat; }
+.BTL11{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_11.png); background-position:left top; background-repeat:repeat; }
+.BTL12{ background-image:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/bkg_pat_12.png); background-position:left top; background-repeat:repeat; }
+
+/* Editus */
+.BG001{background:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG001.png) no-repeat top center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG001.png', sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG001.png', sizingMethod='scale')";}
+.BG002{background:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG002.png) no-repeat top center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG002.png', sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG002.png', sizingMethod='scale')";}
+.BG003{background:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG003.png) no-repeat top center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG003.png', sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG003.png', sizingMethod='scale')";}
+.BG004{background:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG004.png) no-repeat top center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG004.png', sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG004.png', sizingMethod='scale')";}
+.BG005{background:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG005.png) no-repeat top center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG005.png', sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG005.png', sizingMethod='scale')";}
+.BG006{background:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG006.png) no-repeat top center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG006.png', sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG006.png', sizingMethod='scale')";}
+.BG007{background:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG007.png) no-repeat top center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG007.png', sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG007.png', sizingMethod='scale')";}
+.BG008{background:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG008.png) no-repeat top center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG008.png', sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG008.png', sizingMethod='scale')";}
+.BG009{background:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG009.png) no-repeat top center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG009.png', sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG009.png', sizingMethod='scale')";}
+.BG010{background:url(/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG010.png) no-repeat top center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG010.png', sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/service/2.21.0/component_statics/fr/restaurant-carte/background//imgs/BG010.png', sizingMethod='scale')";}
+
+
+/*CUSTOM*/
+.BG-custom.scale-mode {background-position:center top; background-repeat:no-repeat; -webkit-background-size:100%; -moz-background-size:100%; -o-background-size:100%; background-size:100%; }
+.BG-custom.repeat-mode {background-position:left top; background-repeat:repeat;}
+.BG-custom.no-repeat-mode {background-position:center top; background-repeat:no-repeat;}
+
+/*HEADER BACKGROUND*/
+.component.background.header_view.primary {background:#D34D49; color:#FFFFFF;}
+.component.background.header_view.secondary {background:#1B6F06; color:#FFFFFF;}
+.component.background.header_view.additional {background:#6a2725; color:#FFFFFF;}
+.component.background.header_view.no-background {background:none;}
+
+/* ``address`` component */
+/*********************************/
+/* Address */
+/*********************************/
+@font-face {
+    font-family: 'icomoon_point_of_sale';
+    src: url(/service/2.21.0/component_statics/fr/restaurant-carte/address//fonts/icomoon_point_of_sale.eot);
+    src: url(/service/2.21.0/component_statics/fr/restaurant-carte/address//fonts/icomoon_point_of_sale.eot?#iefix) format('embedded-opentype'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/address//fonts/icomoon_point_of_sale.woff) format('woff'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/address//fonts/icomoon_point_of_sale.ttf) format('truetype'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/address//fonts/icomoon_point_of_sale.svg#icomoon) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.component.address.default_view,
+.component.address.long_view,
+.component.address.short_view {position:relative;padding:0 0 0 38px;margin-bottom:23px}
+.component.address.default_view:before,
+.component.address.long_view:before,
+.component.address.short_view:before{display:inline-block;content:"\e601";font-size:23px;color:#33332d;font-family:icomoon_point_of_sale;font-style:normal;line-height:1;position:absolute;top:0;left:0}
+
+
+
+
+
+
+/* ``horizontal_layout`` component */
+.horizontal_layout > ul.item-container {
+    padding: 0;
+	list-style: none outside none;
+}
+.horizontal_layout > .item-container {
+	clear:both;
+}
+
+
+.horizontal_layout > .item-container:after {
+	content: "\0020"; display: block; height: 0; overflow: hidden; clear:both;
+}
+
+.horizontal_layout > .item-container > .item {
+	float:left;
+	vertical-align:top;
+	box-sizing: border-box;	-moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+	min-height: 1px;  /* make sure the element takes some space, even when its content doesn't (such as an empty div) */
+}
+
+
+.horizontal_layout > .item-container.slots-4 > .item  { width: 25%; }
+    @media screen and (max-width: 480px) {
+        .horizontal_layout > .item-container.break_at_mobile.slots-4 > .item.item-3  {clear: left; }
+        .horizontal_layout > .item-container.break_at_mobile.slots-4 > .item  { width: 50%;}  /* Two columns for small widths */
+    }
+    @media screen and (max-width: 768px) {
+    	.horizontal_layout > .item-container.break_at_tablet.slots-4 > .item.item-3  {clear: left; }
+        .horizontal_layout > .item-container.break_at_tablet.slots-4 > .item  { width: 50%;}  /* Two columns for small widths */
+    }
+        
+.horizontal_layout > .item-container.slots-4 > .item.item-3  {clear: left; }
+	@media screen and (min-width: 481px) {
+      .horizontal_layout > .item-container.slots-4 > .item.item-3  {
+        clear: none;
+        }
+    }
+
+
+.horizontal_layout > .item-container.slots-3 > .item  { width: 33.33%; }
+    @media screen and (max-width: 480px) {
+        .horizontal_layout > .item-container.break_at_mobile.slots-3 > .item  { width: 100%;} /* One column for small widths */
+    }
+    @media screen and (max-width: 768px) {
+        .horizontal_layout > .item-container.break_at_tablet.slots-3 > .item  { width: 100%;} /* One column for small widths */
+    }
+
+.horizontal_layout > .item-container.slots-2 > .item { width: 50% }
+	@media screen and (max-width: 480px) {
+        .horizontal_layout > .item-container.break_at_mobile.slots-2 > .item { width: 100% } /* One column for small widths */
+    }
+    @media screen and (max-width: 768px) {
+        .horizontal_layout > .item-container.break_at_tablet.slots-2 > .item { width: 100% } /* One column for small widths */
+    }
+
+
+.horizontal_layout > .item-container.slots-1 > .item { width: 100%; }
+
+.horizontal_layout > .item-container > .item.no-item-width { width: auto; }
+
+/* ``contact`` component */
+/*********************************/
+/* Contact */
+/*********************************/
+@font-face {
+    font-family: 'icomoon_point_of_sale';
+    src: url(/service/2.21.0/component_statics/fr/restaurant-carte/contact//fonts/icomoon_point_of_sale.eot);
+    src: url(/service/2.21.0/component_statics/fr/restaurant-carte/contact//fonts/icomoon_point_of_sale.eot?#iefix) format('embedded-opentype'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/contact//fonts/icomoon_point_of_sale.woff) format('woff'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/contact//fonts/icomoon_point_of_sale.ttf) format('truetype'),
+         url(/service/2.21.0/component_statics/fr/restaurant-carte/contact//fonts/icomoon_point_of_sale.svg#icomoon) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*.contact{padding-bottom:35px}*/
+.component.contact.label_view .label,
+.component.contact.phone_view .phone,
+.component.contact.fax_view .fax,
+.component.contact.mobile_view .mobile,
+.component.contact.email_view .email,
+.component.contact.email_label_view .email,
+.component.contact.url_view .url
+{position:relative;padding:0 0 0 38px;margin-bottom:23px}
+/* .component.contact.phone_view .phone {position:relative;padding:7px 0 0 38px;margin-bottom:30px} error ? */
+
+.component.contact.label_view .label:before,
+.component.contact.phone_view .phone:before,
+.component.contact.fax_view .fax:before,
+.component.contact.mobile_view .mobile:before,
+.component.contact.email_view .email:before,
+.component.contact.email_label_view .email:before,
+.component.contact.url_view .url:before
+{display:inline-block;font-size:23px;line-height:1;color:#33332d;font-family:icomoon_point_of_sale;position:absolute;top:0;left:0}
+
+
+.component.contact.label_view .label:before {content:"\e601";}
+.component.contact.phone_view .phone:before {content:"\e600";}
+.component.contact.fax_view .fax:before {content:"\e605";}
+.component.contact.mobile_view .mobile:before {content:"\e602";}
+.component.contact.email_view .email:before,
+.component.contact.email_label_view .email:before {content:"\e604";}
+.component.contact.url_view .url:before {content:"\e603";}
+
+.component.contact.list_view .contacts-list {padding: 0}
+
+.contact.editus-mobile_view .button-tel{padding-left:35px;color:white;background:url(/service/2.21.0/component_statics/fr/restaurant-carte/contact//imgs-m/button-tel-left.png) no-repeat;}
+
+
+/* ``practical_info`` component */
+.component.practical_info .practical-info-point-of-sale {
+    cursor: pointer;
+}
+
+.component.practical_info .practical-info-point-of-sale:hover {
+    opacity: 0.8;  /* indicate that the element is clickable */
+}
+
+.component.practical_info.default_view .practical-info-point-of-sale {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.component.practical_info.default_view .practical-info-point-of-sale-elements,
+.component.practical_info.default_view .practical-info-point-of-sale-link {
+    display: table-cell;
+}
+
+.component.practical_info.default_view .practical-info-point-of-sale-link {
+    width: 22px;
+    background: url("/service/2.21.0/component_statics/fr/restaurant-carte/practical_info//img/arrow.png") no-repeat scroll right center;
+    text-decoration: none;
+    outline: 0;
+}
+
+.component.practical_info.default_view .practical-info-point-of-sale+.practical-info-point-of-sale {
+    margin-top: 20px;
+}
+
+.component.practical_info.default_view .component.address.short_view .address_locality {
+    font-weight: bold;
+}
+
+
+/* ``activity`` component */
+/* comp activity */
+.activity.editus_view .produit{margin-left: 11px;}
+.activity.editus_view .produit h4{margin-bottom:10px;margin-top:10px;font-size:1.2em}
+.activity.editus_view .produit li{float:left;width:250px;margin-bottom:10px;padding:0 10px;}
+.activity.editus_view h2 {font-size: 2em;margin-left: 11px}
+.activity.editus_view img{display: block;max-width: 555px;max-height: 342px;margin: auto;margin: auto;padding: 7px;border: 1px solid #cccccc;}
+
+.activity.editus_view.mobile img {width: 300px;height: inherit;border:none;float:left;padding:0;margin-bottom: 10px;}
+.activity.editus_view.mobile h2 {display:none;}
+.activity.editus_view.mobile section {clear:both}
+.activity.editus_view.mobile .produit{margin-left: 0px;}
+.activity.editus_view.mobile .produit h4{color: #c69d18;font-weight: bold;font-size: 10pt;margin-top: 10px;}
+.activity.editus_view.mobile .produit li {float: none;margin-bottom:2px}
+.activity.editus_view.mobile .produit li h5 {margin:0;padding:0;font-weight:normal;font-size:1em;}
+
+/* referential module */
+.activity .referential-module {overflow: hidden;clear:both}
+.activity .referential-module .referential-module-image {float: right;}
+.activity .referential-module .referential-module-items li.no-bullet {list-style: none;}
